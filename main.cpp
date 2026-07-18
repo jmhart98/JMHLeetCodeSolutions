@@ -3,8 +3,12 @@
 
 using namespace std;
 
-// Returns the full solution code for Problem 1 (Two Sum) as a text block,
-// so we can print it out for the user.
+// This program currently has solutions for the following LeetCode problems:
+// 1. Two Sum
+// 1979. Find Greatest Common Divisor of Array
+
+
+// Solution code for Problem 1. Two Sum
 string getProblem1Solution() {
     return R"(class Solution {
 public:
@@ -28,8 +32,7 @@ public:
 };)";
 }
 
-// Returns the full solution code for Problem 1979 (Find GCD of Array)
-// as a text block, so we can print it out for the user.
+// Solution code for Problem 1979. Find Greatest Common Divisor of Array
 string getProblem1979Solution() {
     return R"(class Solution {
 public:
